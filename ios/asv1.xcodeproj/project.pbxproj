@@ -62,6 +62,12 @@
 		ACDCCF467CCC4916B5BEFB1A /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 988B160D73864D9C8EA9EB21 /* Zocial.ttf */; };
 		9FD97D380D0543F786509685 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9885179C9684EF6AC76C559 /* libRNGestureHandler.a */; };
 		49DFA254AAAF446CBA4FD9E8 /* libRNScreens.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E34FF156EE124F588368CA3C /* libRNScreens.a */; };
+		6D4BAE5634D84897993434E3 /* recipes.svg in Resources */ = {isa = PBXBuildFile; fileRef = BB9F259CBED547AA8C637502 /* recipes.svg */; };
+		02CE3389293748449413EDD1 /* recipes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75D2018AF5AB4D71AF1CF51B /* recipes.ttf */; };
+		C09AEACD49BE4B8D812990E6 /* recipes.woff in Resources */ = {isa = PBXBuildFile; fileRef = 948057914EA94264855BDC42 /* recipes.woff */; };
+		2F3068CC8673496F8D6D6649 /* recipes.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 766863526E9D4DE1AD33E421 /* recipes.woff2 */; };
+		FC38AAB6ABB24DF4B00F52C5 /* iconosfinales.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADF1ACD209994459BC0FC451 /* iconosfinales.ttf */; };
+		02E6177C270C4211AF9484A6 /* iconosfinalesajua.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82AF399F591B42F1A559B4C5 /* iconosfinalesajua.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -395,6 +401,12 @@
 		F9885179C9684EF6AC76C559 /* libRNGestureHandler.a */ = {isa = PBXFileReference; name = "libRNGestureHandler.a"; path = "libRNGestureHandler.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		43E15E4A55454287B1E30A62 /* RNScreens.xcodeproj */ = {isa = PBXFileReference; name = "RNScreens.xcodeproj"; path = "../node_modules/react-native-screens/ios/RNScreens.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		E34FF156EE124F588368CA3C /* libRNScreens.a */ = {isa = PBXFileReference; name = "libRNScreens.a"; path = "libRNScreens.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		BB9F259CBED547AA8C637502 /* recipes.svg */ = {isa = PBXFileReference; name = "recipes.svg"; path = "../assets/fonts/recipes.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		75D2018AF5AB4D71AF1CF51B /* recipes.ttf */ = {isa = PBXFileReference; name = "recipes.ttf"; path = "../assets/fonts/recipes.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		948057914EA94264855BDC42 /* recipes.woff */ = {isa = PBXFileReference; name = "recipes.woff"; path = "../assets/fonts/recipes.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		766863526E9D4DE1AD33E421 /* recipes.woff2 */ = {isa = PBXFileReference; name = "recipes.woff2"; path = "../assets/fonts/recipes.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ADF1ACD209994459BC0FC451 /* iconosfinales.ttf */ = {isa = PBXFileReference; name = "iconosfinales.ttf"; path = "../assets/fonts/iconosfinales.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		82AF399F591B42F1A559B4C5 /* iconosfinalesajua.ttf */ = {isa = PBXFileReference; name = "iconosfinalesajua.ttf"; path = "../assets/fonts/iconosfinalesajua.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -687,6 +699,12 @@
 				9C2132048C9749C392491506 /* Octicons.ttf */,
 				C805AA129D964A03B7A0AD4E /* SimpleLineIcons.ttf */,
 				988B160D73864D9C8EA9EB21 /* Zocial.ttf */,
+				BB9F259CBED547AA8C637502 /* recipes.svg */,
+				75D2018AF5AB4D71AF1CF51B /* recipes.ttf */,
+				948057914EA94264855BDC42 /* recipes.woff */,
+				766863526E9D4DE1AD33E421 /* recipes.woff2 */,
+				ADF1ACD209994459BC0FC451 /* iconosfinales.ttf */,
+				82AF399F591B42F1A559B4C5 /* iconosfinalesajua.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1159,6 +1177,12 @@
 				45FC5F41B57549DA925A6574 /* Octicons.ttf in Resources */,
 				7127EDC7C4384B6BB7ED3340 /* SimpleLineIcons.ttf in Resources */,
 				ACDCCF467CCC4916B5BEFB1A /* Zocial.ttf in Resources */,
+				6D4BAE5634D84897993434E3 /* recipes.svg in Resources */,
+				02CE3389293748449413EDD1 /* recipes.ttf in Resources */,
+				C09AEACD49BE4B8D812990E6 /* recipes.woff in Resources */,
+				2F3068CC8673496F8D6D6649 /* recipes.woff2 in Resources */,
+				FC38AAB6ABB24DF4B00F52C5 /* iconosfinales.ttf in Resources */,
+				02E6177C270C4211AF9484A6 /* iconosfinalesajua.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

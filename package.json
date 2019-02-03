@@ -7,6 +7,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "apisauce": "^1.0.2",
+    "firebase": "^5.8.2",
+    "mobx": "^5.8.0",
+    "mobx-react": "^5.4.3",
+    "native-base": "^2.11.0",
     "react": "16.6.3",
     "react-native": "0.57.8",
     "react-native-gesture-handler": "^1.0.12",
@@ -16,6 +21,7 @@
     "uglify-es": "^3.2.2"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.2.3",
     "babel-jest": "23.6.0",
     "jest": "23.6.0",
     "metro-react-native-babel-preset": "0.51.1",

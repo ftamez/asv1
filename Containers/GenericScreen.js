@@ -11,6 +11,7 @@
  import {Text, View, StyleSheet} from 'react-native';
 
  import styles from "./Styles/GenericScreenStyles"
+ import TabBar from "../Components/TabBar";
 
  /*
 <screen>
@@ -31,67 +32,27 @@ export default class GenericScreen extends Component {
     super(props);
 
     this.state = {
-      example: 5,
       favorite: false
-    }
-    console.log('constructor');
+    };
   }
-
-   componentWillMount() {
-       console.log("componentWillMount");
-   }
-
-   componentDidMount() {
-       console.log("componentDidMount");
-        
-       setTimeout(() => {
-           console.log("changing state");
-           this.setState({
-               var1: 2 
-           });
-       }, 500);
-
-   }
-
-   shouldComponentUpdate(nextProps, nextState) {
-       console.log("shouldComponentUpdate");
-       return true;
-   }
-
-   componentWillUpdate() {
-       console.log("componentWillUpdate");
-   }
 
    pressFavorite = () => {
     const { favorite } = this.state;
     this.setState({
       favorite: !favorite
     });
+  };
+
+  render() {
+    console.log("render");
+
+    const { favorite } = this.state;
+    return (
+      <View style={[styles.mainScreen]}>
+        <NavBar leftButton={true} title="Categories" />
+        <View style={styles.container}>{/* */}</View>
+        <TabBar selected="Instagram" />
+      </View>
+    );
   }
-
-   componentDidUpdate() {
-       console.log("componentDidUpdate")
-   }
-
-   componentWillMount() {
-       console.log("componentWillMount")
-   }
-
-    render() {
-        console.log("render");
-        const { favorite } = this.state
-        return (
-            <View>
-                <NavBar
-                    leftButton={true}
-                    title="Inicio"
-                    rightButton={true}
-                    onPressFavorite={this.pressFavorite}
-                    favorite={true} />
-            </View>
-        );
-    }
-}
-
- 
- 
+}  

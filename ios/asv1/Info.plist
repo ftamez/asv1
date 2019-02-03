@@ -76,6 +76,11 @@
 		<string>Octicons.ttf</string>
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
+		<string>recipes.ttf</string>
+		<string>recipes.woff</string>
+		<string>recipes.woff2</string>
+		<string>iconosfinales.ttf</string>
+		<string>iconosfinalesajua.ttf</string>
 	</array>
 </dict>
 </plist>
