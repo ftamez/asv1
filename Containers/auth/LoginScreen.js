@@ -61,7 +61,7 @@ export default class LoginScreen extends React.Component {
           </Item>
 
           <Item floatingLabel>
-            <Label>Passwordd</Label>
+            <Label>Password</Label>
             <Input
               secureTextEntry={true}
               autoCorrect={false}
@@ -70,7 +70,7 @@ export default class LoginScreen extends React.Component {
             />
           </Item>
 
-          <Button onPress={this.goToInicio}
+          <Button style={{ marginTop: 20 }}
             full
             rounded
             success
@@ -79,7 +79,7 @@ export default class LoginScreen extends React.Component {
             <Text style={{ color: 'white' }}>Inicia Sesion</Text>
           </Button>
 
-          <Button style={{ marginTop: 10 } }
+          <Button style={{ marginTop: 20 } }
             full
             rounded
             primary
